@@ -26,11 +26,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun listItems() = arrayListOf(
-            PagerItem("TEST0"),
-            PagerItem("TEST1"),
-            PagerItem("TEST2"),
-            PagerItem("TEST3"),
-            PagerItem("TEST4"),
-            PagerItem("TEST5")
+            PagerItem(R.drawable.s),
+            PagerItem(R.drawable.ss),
+            PagerItem(R.drawable.n)
     )
 }
